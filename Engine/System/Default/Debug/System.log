@@ -1,0 +1,12 @@
+﻿  Timer_Manager.cpp
+  Timer.cpp
+  Input_Device.cpp
+  GraphicDev.cpp
+  Frame_Manager.cpp
+  Frame.cpp
+  Font_Manager.cpp
+  Font.cpp
+  코드를 생성하고 있습니다...
+     ../Bin\System.lib 라이브러리 및 ../Bin\System.exp 개체를 생성하고 있습니다.
+  System.vcxproj -> C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\System\Default\../Bin\System.dll
+  System.vcxproj -> ../Bin\System.pdb (Full PDB)

@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainFrm">
+      <UniqueIdentifier>{69c8abe5-919f-44d7-9a36-bfe2b8b83353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainFrm\00.App">
+      <UniqueIdentifier>{735240be-d398-4e71-8cdc-93c1dc4a4f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View">
+      <UniqueIdentifier>{ed3f6b61-05bd-498e-b926-8f56e71f1e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\00.MainView">
+      <UniqueIdentifier>{939f2ddb-9edc-48a1-bca6-8baf084ff1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\01.ButtonMenu">
+      <UniqueIdentifier>{73a7c71c-9a11-4acc-a167-bdbc2a006174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\01.ButtonMenu\00.MapToolTab">
+      <UniqueIdentifier>{a0cae2a9-fd73-4d4d-a311-a75cd5a83cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\01.ButtonMenu\01.NaviTab">
+      <UniqueIdentifier>{59788a9c-7030-4986-8935-ed7a93e6e20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{607cd77d-4531-4354-97bb-cef6a5ed5f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mouse">
+      <UniqueIdentifier>{8eef5130-b0bf-4a3c-8961-8d1fd4542f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene">
+      <UniqueIdentifier>{11d6fb11-3f8d-4896-9eef-613a766e4ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Camera">
+      <UniqueIdentifier>{09793e3c-5ca0-403b-bd51-6bc4067b0c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object">
+      <UniqueIdentifier>{8ad614fc-fc0b-4924-9e7d-24088e262931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\00.MapObj">
+      <UniqueIdentifier>{a7ca8109-4857-4b29-8708-431117ea32b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\00.MapObj\00.Map_Store">
+      <UniqueIdentifier>{2d364c6d-a80e-49f2-b4b3-f71301b337ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\00.MapObj\01.Map_Ice">
+      <UniqueIdentifier>{c713bda2-db5c-4dee-9d2d-645a006751ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\01.Environment">
+      <UniqueIdentifier>{bb17c145-f1be-4b97-9b2c-72f6b3490095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\02.NPC">
+      <UniqueIdentifier>{30d83eeb-20a4-435d-b4bb-3b48c33414bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\03.Monster">
+      <UniqueIdentifier>{34b8620c-1a94-4beb-9e5b-dec52a6d0ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\99.PickingRect">
+      <UniqueIdentifier>{762df005-c874-40d8-a826-bae310dadf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\04.Effect">
+      <UniqueIdentifier>{cf444e9a-ceb7-4351-94b1-9bb12a6aec11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\04.Effect\00.Particle">
+      <UniqueIdentifier>{4935e391-bc01-4f07-af32-d01ff869f304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\04.Effect\01.Sprite">
+      <UniqueIdentifier>{78defc08-8f96-4624-b066-1a7a26043895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\05.Player">
+      <UniqueIdentifier>{e964f4a0-7ee3-4c6b-bc54-37a82d4733f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\06.Cube">
+      <UniqueIdentifier>{d21759cd-eff2-432f-894c-b04858b7c351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Collision">
+      <UniqueIdentifier>{96dd2181-9a67-49ae-ab68-33d3d23e9b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Collision\00.MouseCol">
+      <UniqueIdentifier>{2c485eaf-abeb-4731-b58b-4a5cc1efcbfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Document">
+      <UniqueIdentifier>{45f22acf-45b1-42e4-b598-4e89f9d2a03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.AnimationState">
+      <UniqueIdentifier>{96ee2363-a8b5-4218-8707-aeef2a004676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.AnimationState\00.Player">
+      <UniqueIdentifier>{774e98cb-b9cf-43ce-ad29-84e1c36a5d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.AnimationState\01.Babegazi_Warrior">
+      <UniqueIdentifier>{34f08985-4e4b-4832-8842-12199a1a9f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.AI_State">
+      <UniqueIdentifier>{857d5d50-8ff6-4f36-abd5-8b31bf924283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.AI_State\00.Roaming">
+      <UniqueIdentifier>{bf6cb2b4-051d-4484-a4c3-12509b0e1f59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.AI_State\01.Discovery">
+      <UniqueIdentifier>{e09e3203-991a-4e53-85fa-78d6c6e9ce25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.AI_State\02.Trace">
+      <UniqueIdentifier>{5b46fe50-7047-4691-b6f8-30a2a1829432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\00.MapObj\02.Map_Fire">
+      <UniqueIdentifier>{05167e40-dfa5-4ee0-a1a3-ba77332c3cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\07.Trap">
+      <UniqueIdentifier>{bda93ed1-51e4-4599-becd-9db49b04fa49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainApp.cpp">
+      <Filter>00.MainFrm\00.App</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolView.cpp">
+      <Filter>02.View\00.MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonMenu.cpp">
+      <Filter>02.View\01.ButtonMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MapToolTab.cpp">
+      <Filter>02.View\01.ButtonMenu\00.MapToolTab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NaviTab.cpp">
+      <Filter>02.View\01.ButtonMenu\01.NaviTab</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Mouse.cpp">
+      <Filter>97.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_MapTool.cpp">
+      <Filter>03.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_MapTool.cpp">
+      <Filter>98.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Map_Store.cpp">
+      <Filter>04.Object\00.MapObj\00.Map_Store</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Map_Ice.cpp">
+      <Filter>04.Object\00.MapObj\01.Map_Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Environment.cpp">
+      <Filter>04.Object\01.Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NPC.cpp">
+      <Filter>04.Object\02.NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster.cpp">
+      <Filter>04.Object\03.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PickingRect.cpp">
+      <Filter>04.Object\99.PickingRect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Particle.cpp">
+      <Filter>04.Object\04.Effect\00.Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sprite.cpp">
+      <Filter>04.Object\04.Effect\01.Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player.cpp">
+      <Filter>04.Object\05.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Cube.cpp">
+      <Filter>04.Object\06.Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MouseCol.cpp">
+      <Filter>05.Collision\00.MouseCol</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolDoc.cpp">
+      <Filter>01.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player_Ani.cpp">
+      <Filter>96.AnimationState\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Babegazi_Warrior_Ani.cpp">
+      <Filter>96.AnimationState\01.Babegazi_Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\AI_Roaming.cpp">
+      <Filter>96.AI_State\00.Roaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\AI_Trace.cpp">
+      <Filter>96.AI_State\02.Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\AI_Discovery.cpp">
+      <Filter>96.AI_State\01.Discovery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Map_Fire.cpp">
+      <Filter>04.Object\00.MapObj\02.Map_Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Trap.cpp">
+      <Filter>04.Object\07.Trap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MainApp.h">
+      <Filter>00.MainFrm\00.App</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolView.h">
+      <Filter>02.View\00.MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonMenu.h">
+      <Filter>02.View\01.ButtonMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MapToolTab.h">
+      <Filter>02.View\01.ButtonMenu\00.MapToolTab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\NaviTab.h">
+      <Filter>02.View\01.ButtonMenu\01.NaviTab</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Mouse.h">
+      <Filter>97.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Scene_MapTool.h">
+      <Filter>03.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Camera_MapTool.h">
+      <Filter>98.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Map_Store.h">
+      <Filter>04.Object\00.MapObj\00.Map_Store</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Map_Ice.h">
+      <Filter>04.Object\00.MapObj\01.Map_Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Environment.h">
+      <Filter>04.Object\01.Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\NPC.h">
+      <Filter>04.Object\02.NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Monster.h">
+      <Filter>04.Object\03.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\PickingRect.h">
+      <Filter>04.Object\99.PickingRect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Particle.h">
+      <Filter>04.Object\04.Effect\00.Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Sprite.h">
+      <Filter>04.Object\04.Effect\01.Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Player.h">
+      <Filter>04.Object\05.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Cube.h">
+      <Filter>04.Object\06.Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MouseCol.h">
+      <Filter>05.Collision\00.MouseCol</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolDoc.h">
+      <Filter>01.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Player_Ani.h">
+      <Filter>96.AnimationState\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Babegazi_Warrior_Ani.h">
+      <Filter>96.AnimationState\01.Babegazi_Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\AI_Roaming.h">
+      <Filter>96.AI_State\00.Roaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\AI_Trace.h">
+      <Filter>96.AI_State\02.Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\AI_Discovery.h">
+      <Filter>96.AI_State\01.Discovery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Map_Fire.h">
+      <Filter>04.Object\00.MapObj\02.Map_Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Trap.h">
+      <Filter>04.Object\07.Trap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MapTool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\MapToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapTool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MapTool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

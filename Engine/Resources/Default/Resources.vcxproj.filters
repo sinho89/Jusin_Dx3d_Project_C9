@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.Manager">
+      <UniqueIdentifier>{a3746aaf-38b9-4b0b-bbf1-7ce61fce25ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources">
+      <UniqueIdentifier>{5cffa789-b0a1-41d0-92ab-1599d0004fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer">
+      <UniqueIdentifier>{fd690d79-cf69-48a4-a172-777623071b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\00.Rect_Color">
+      <UniqueIdentifier>{8a9c85ed-51ac-4045-b9b5-7f2437d3a2e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\01.Rect_Texture">
+      <UniqueIdentifier>{d93212b1-37f9-482e-b62a-c463541587b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\02.Triangle_Color">
+      <UniqueIdentifier>{a297dd57-f003-4feb-8077-b1d025fdfd18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\03.Triangle_Texture">
+      <UniqueIdentifier>{719cf2f5-d712-462f-ba51-80fcc97d75ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\04.Cube_Color">
+      <UniqueIdentifier>{39b9bfd7-d3c3-4dcd-8936-20d3a23570e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\05.Cube_Texture">
+      <UniqueIdentifier>{9c4d93cf-61c5-49b1-9b19-accb84d1a34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\06.Grid_Col">
+      <UniqueIdentifier>{2f187ae2-538b-4935-a963-09b40bc014e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\07.Pentagon_Texture">
+      <UniqueIdentifier>{68ea977d-e784-4449-b6aa-6d53f4fb9a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\08.Sphere_Color">
+      <UniqueIdentifier>{3ad192a9-2c0a-4786-aa04-39b3ddd2af54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\09.Trail_Texture">
+      <UniqueIdentifier>{fd304970-c795-4992-89cf-c890e0150468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\01.Mesh">
+      <UniqueIdentifier>{3b586f0b-b774-4df4-adaf-93608f9d4a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\01.Mesh\00.StaticMesh">
+      <UniqueIdentifier>{37465566-e0ba-4c11-8d4d-cc91e6d2697a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\01.Mesh\01.DynamicMesh">
+      <UniqueIdentifier>{8975849a-1c85-42d7-99f5-b9b5e6664f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\01.Mesh\01.DynamicMesh\00.AniCtrl">
+      <UniqueIdentifier>{ac139a41-37e0-4970-96bb-f8f41dbafd96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\01.Mesh\01.DynamicMesh\01.Loader">
+      <UniqueIdentifier>{d3c3d571-365e-4c2a-8989-d3e9645d1ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\01.Mesh\02.NavigationMesh">
+      <UniqueIdentifier>{4c84aa23-ed00-429c-b4cf-5d4c4d5b070e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\01.Mesh\02.NavigationMesh\00.Cell">
+      <UniqueIdentifier>{1b2bf849-5293-4e3b-8df7-b7d99f95dfbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\01.Mesh\02.NavigationMesh\01.Line">
+      <UniqueIdentifier>{76dc00d0-84fe-4402-814b-130772911c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\02.Texture">
+      <UniqueIdentifier>{2fbab205-81ed-4965-ba40-633cd0f721d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Export">
+      <UniqueIdentifier>{ac6b063a-0931-4375-b4ef-ae144d965bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\10.Screen_Texture">
+      <UniqueIdentifier>{ed6c3049-9bb8-4138-93a7-98538fe16226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\11.Instansing_Screen_Texture">
+      <UniqueIdentifier>{5f1dcac6-6754-4dff-abce-188baa3e023a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\01.Mesh\03.SphereMesh">
+      <UniqueIdentifier>{0618a5cd-b8af-4f74-b5d0-e6acf92953c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\Resource_Manager.cpp">
+      <Filter>00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Resource.cpp">
+      <Filter>01.Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBuffer.cpp">
+      <Filter>01.Resources\00.Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Rect_Color.cpp">
+      <Filter>01.Resources\00.Buffer\00.Rect_Color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Rect_Texture.cpp">
+      <Filter>01.Resources\00.Buffer\01.Rect_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Triangle_Color.cpp">
+      <Filter>01.Resources\00.Buffer\02.Triangle_Color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Triangle_Texture.cpp">
+      <Filter>01.Resources\00.Buffer\03.Triangle_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Cube_Color.cpp">
+      <Filter>01.Resources\00.Buffer\04.Cube_Color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Cube_Texture.cpp">
+      <Filter>01.Resources\00.Buffer\05.Cube_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Grid_Col.cpp">
+      <Filter>01.Resources\00.Buffer\06.Grid_Col</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Pentagon_Texture.cpp">
+      <Filter>01.Resources\00.Buffer\07.Pentagon_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sphere_Color.cpp">
+      <Filter>01.Resources\00.Buffer\08.Sphere_Color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Trail_Texture.cpp">
+      <Filter>01.Resources\00.Buffer\09.Trail_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Mesh.cpp">
+      <Filter>01.Resources\01.Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\StaticMesh.cpp">
+      <Filter>01.Resources\01.Mesh\00.StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DynamicMesh.cpp">
+      <Filter>01.Resources\01.Mesh\01.DynamicMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\AnimationCtrl.cpp">
+      <Filter>01.Resources\01.Mesh\01.DynamicMesh\00.AniCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\HierarchyLoader.cpp">
+      <Filter>01.Resources\01.Mesh\01.DynamicMesh\01.Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NavigationMesh.cpp">
+      <Filter>01.Resources\01.Mesh\02.NavigationMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Cell.cpp">
+      <Filter>01.Resources\01.Mesh\02.NavigationMesh\00.Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Line.cpp">
+      <Filter>01.Resources\01.Mesh\02.NavigationMesh\01.Line</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Texture.cpp">
+      <Filter>01.Resources\02.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Screen_Texture.cpp">
+      <Filter>01.Resources\00.Buffer\10.Screen_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SphereMesh.cpp">
+      <Filter>01.Resources\01.Mesh\03.SphereMesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Codes\Resource_Manager.h">
+      <Filter>00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Resource.h">
+      <Filter>01.Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\VIBuffer.h">
+      <Filter>01.Resources\00.Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Rect_Color.h">
+      <Filter>01.Resources\00.Buffer\00.Rect_Color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Rect_Texture.h">
+      <Filter>01.Resources\00.Buffer\01.Rect_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Triangle_Color.h">
+      <Filter>01.Resources\00.Buffer\02.Triangle_Color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Triangle_Texture.h">
+      <Filter>01.Resources\00.Buffer\03.Triangle_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Cube_Color.h">
+      <Filter>01.Resources\00.Buffer\04.Cube_Color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Cube_Texture.h">
+      <Filter>01.Resources\00.Buffer\05.Cube_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Grid_Col.h">
+      <Filter>01.Resources\00.Buffer\06.Grid_Col</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Pentagon_Texture.h">
+      <Filter>01.Resources\00.Buffer\07.Pentagon_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Sphere_Color.h">
+      <Filter>01.Resources\00.Buffer\08.Sphere_Color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Trail_Texture.h">
+      <Filter>01.Resources\00.Buffer\09.Trail_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Mesh.h">
+      <Filter>01.Resources\01.Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\StaticMesh.h">
+      <Filter>01.Resources\01.Mesh\00.StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\DynamicMesh.h">
+      <Filter>01.Resources\01.Mesh\01.DynamicMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\AnimationCtrl.h">
+      <Filter>01.Resources\01.Mesh\01.DynamicMesh\00.AniCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\HierarchyLoader.h">
+      <Filter>01.Resources\01.Mesh\01.DynamicMesh\01.Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\NavigationMesh.h">
+      <Filter>01.Resources\01.Mesh\02.NavigationMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Cell.h">
+      <Filter>01.Resources\01.Mesh\02.NavigationMesh\00.Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Line.h">
+      <Filter>01.Resources\01.Mesh\02.NavigationMesh\01.Line</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Texture.h">
+      <Filter>01.Resources\02.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Export\Export_Resource.h">
+      <Filter>99.Export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Screen_Texture.h">
+      <Filter>01.Resources\00.Buffer\10.Screen_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SphereMesh.h">
+      <Filter>01.Resources\01.Mesh\03.SphereMesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Export\Export_Resource.inl">
+      <Filter>99.Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>

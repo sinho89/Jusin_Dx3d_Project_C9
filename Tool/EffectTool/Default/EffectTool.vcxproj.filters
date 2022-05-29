@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainFrm">
+      <UniqueIdentifier>{01a966de-0ff2-4ea0-b0e1-9b4e019f154e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ToolStage">
+      <UniqueIdentifier>{2664393b-5014-4e08-a8d0-74e66914fac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View">
+      <UniqueIdentifier>{7321eadb-bcfc-484c-b769-1fa507c407f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\00.MainView">
+      <UniqueIdentifier>{cca270e5-4ecb-47b1-ad36-e9fc6342c7b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\01.FormView">
+      <UniqueIdentifier>{a3956014-a136-4545-95f0-92b55b4405a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\01.FormView\00.ParticleDIg">
+      <UniqueIdentifier>{a6b1472f-3375-4fb7-a5d7-7ee9b3cc43bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\01.FormView\01.SpriteDIg">
+      <UniqueIdentifier>{5a6e6efd-295c-400f-9032-948824b6aba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\01.FormView\02.BatchDlg">
+      <UniqueIdentifier>{20666a07-e838-4761-8d3f-0045410bcca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{812d0522-f341-49dd-bfb7-fe836676a3ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolApp">
+      <UniqueIdentifier>{cfe2d7a5-b91c-4865-8984-52b0cb770f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Document">
+      <UniqueIdentifier>{8b687452-8bc9-48cf-af6d-5c427f9725fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object">
+      <UniqueIdentifier>{d5bfed5d-e34b-4e4e-938f-c40d100238e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\00. Grid">
+      <UniqueIdentifier>{d985628e-9e96-461f-8aeb-c5464ad2476c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\01. Camera">
+      <UniqueIdentifier>{d729ac98-2220-4f41-a661-8182215b1ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. Effect">
+      <UniqueIdentifier>{4ae3abd2-bd8c-45eb-b84e-bd1817804a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. Effect\00.Particle">
+      <UniqueIdentifier>{b1aec2f0-3295-440c-9db7-eec75bb3c4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. Effect\01.Sprite">
+      <UniqueIdentifier>{f7f2242d-2421-43bd-946e-4698abb529d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolStage.cpp">
+      <Filter>04. ToolStage</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectToolView.cpp">
+      <Filter>02.View\00.MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>02.View\01.FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleDIg.cpp">
+      <Filter>02.View\01.FormView\00.ParticleDIg</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteDIg.cpp">
+      <Filter>02.View\01.FormView\01.SpriteDIg</Filter>
+    </ClCompile>
+    <ClCompile Include="Batch.cpp">
+      <Filter>02.View\01.FormView\02.BatchDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectTool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolApp.cpp">
+      <Filter>03. ToolApp</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectToolDoc.cpp">
+      <Filter>01.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>05. Object\00. Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectCamera.cpp">
+      <Filter>05. Object\01. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>05. Object\02. Effect\00.Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>05. Object\02. Effect\01.Sprite</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolStage.h">
+      <Filter>04. ToolStage</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectToolView.h">
+      <Filter>02.View\00.MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>02.View\01.FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleDIg.h">
+      <Filter>02.View\01.FormView\00.ParticleDIg</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteDIg.h">
+      <Filter>02.View\01.FormView\01.SpriteDIg</Filter>
+    </ClInclude>
+    <ClInclude Include="Batch.h">
+      <Filter>02.View\01.FormView\02.BatchDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectTool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolApp.h">
+      <Filter>03. ToolApp</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectToolDoc.h">
+      <Filter>01.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>05. Object\00. Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectCamera.h">
+      <Filter>05. Object\01. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>05. Object\02. Effect\00.Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>05. Object\02. Effect\01.Sprite</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\EffectTool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\EffectToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EffectTool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\EffectTool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+﻿  AnimationCtrl.cpp
+  Cell.cpp
+  Cube_Color.cpp
+  Cube_Texture.cpp
+  DynamicMesh.cpp
+  Grid_Col.cpp
+  HierarchyLoader.cpp
+  Line.cpp
+  Mesh.cpp
+  NavigationMesh.cpp
+  Pentagon_Texture.cpp
+  Rect_Color.cpp
+  Rect_Texture.cpp
+  Resource.cpp
+  Resource_Manager.cpp
+  Screen_Texture.cpp
+  SphereMesh.cpp
+  Sphere_Color.cpp
+  StaticMesh.cpp
+  Texture.cpp
+  컴파일하고 있습니다...
+  Trail_Texture.cpp
+  Triangle_Color.cpp
+  Triangle_Texture.cpp
+  VIBuffer.cpp
+     ../Bin\Resources.lib 라이브러리 및 ../Bin\Resources.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  All 1967 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Resources.vcxproj -> C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Resources\Default\../Bin\Resources.dll
+  Resources.vcxproj -> ../Bin\Resources.pdb (Full PDB)

@@ -1,0 +1,45 @@
+﻿  AI.cpp
+  AI_State.cpp
+  AnimationState.cpp
+  Animator.cpp
+  BoxCollider.cpp
+  Calculator.cpp
+  Camera.cpp
+  CameraMgr.cpp
+  Collider.cpp
+  Collision_Manager.cpp
+  Component.cpp
+  Effect.cpp
+  Frustum.cpp
+  GameObject.cpp
+  Layer.cpp
+  Light.cpp
+  Light_Manager.cpp
+  Management.cpp
+  MediaObj.cpp
+  Prototype_Manager.cpp
+  컴파일하고 있습니다...
+  Renderer.cpp
+  Rigidbody.cpp
+  Scene.cpp
+  Shader.cpp
+  SphereCollider.cpp
+  Target.cpp
+  Target_Manager.cpp
+  TextureRenderer.cpp
+  Transform.cpp
+  UICalculater.cpp
+     ../Bin\Utility.lib 라이브러리 및 ../Bin\Utility.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  All 3737 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+Strmbase.lib(amfilter.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbase.lib(amfilter.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbase.lib(arithutil.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbase.lib(arithutil.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbase.lib(combase.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbase.lib(combase.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbase.lib(ctlutil.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbase.lib(ctlutil.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbase.lib(mtype.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbase.lib(mtype.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbase.lib(renbase.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbase.lib(renbase.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbase.lib(wxlist.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbase.lib(wxlist.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbase.lib(wxutil.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbase.lib(wxutil.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Utility.vcxproj -> C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Default\../Bin\Utility.dll
+  Utility.vcxproj -> ../Bin\Utility.pdb (Full PDB)

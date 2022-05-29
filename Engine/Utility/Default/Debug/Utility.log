@@ -1,0 +1,13 @@
+﻿     ../Bin\Utility.lib 라이브러리 및 ../Bin\Utility.exp 개체를 생성하고 있습니다.
+Strmbasd.lib(amfilter.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbasd.lib(amfilter.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbasd.lib(amvideo.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbasd.lib(amvideo.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbasd.lib(arithutil.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbasd.lib(arithutil.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbasd.lib(combase.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbasd.lib(combase.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbasd.lib(ctlutil.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbasd.lib(ctlutil.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbasd.lib(mtype.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbasd.lib(mtype.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbasd.lib(renbase.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbasd.lib(renbase.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbasd.lib(wxdebug.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbasd.lib(wxdebug.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbasd.lib(wxlist.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbasd.lib(wxlist.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Strmbasd.lib(wxutil.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'Strmbasd.lib(wxutil.obj)' 또는 'C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Bin\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Utility.vcxproj -> C:\Users\ShinHo\Desktop\팀폴_C9\trunk\Engine\Utility\Default\../Bin\Utility.dll
+  Utility.vcxproj -> ../Bin\Utility.pdb (Full PDB)

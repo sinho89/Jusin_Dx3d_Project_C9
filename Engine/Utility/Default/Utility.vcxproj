@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F88172A6-5A2B-42C6-99B6-14DD2E753FF4}</ProjectGuid>
+    <RootNamespace>Utility</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../Bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>../Bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../Headers/;../../../SuperClass/;../../../ThirdParty/Boost/;../../../ThirdParty/FMOD/;../../../Reference/Headers/;../../../ThirdParty/DShow/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;UTILITY_EXPORTS;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dxguid.lib;dinput8.lib;Resources.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../../ThirdParty/FMOD/;../../../Reference/Librarys/;../../../ThirdParty/DShow/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalOptions>/safeseh:no %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../../Headers/;../../../SuperClass/;../../../ThirdParty/Boost/;../../../ThirdParty/FMOD/;../../../Reference/Headers/;../../../ThirdParty/DShow/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;UTILITY_EXPORTS;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dxguid.lib;dinput8.lib;Resources.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../../ThirdParty/FMOD/;../../../Reference/Librarys/;../../../ThirdParty/DShow/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalOptions>/safeseh:no %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\AI.cpp" />
+    <ClCompile Include="..\Codes\AI_State.cpp" />
+    <ClCompile Include="..\Codes\AnimationState.cpp" />
+    <ClCompile Include="..\Codes\Animator.cpp" />
+    <ClCompile Include="..\Codes\BoxCollider.cpp" />
+    <ClCompile Include="..\Codes\Calculator.cpp" />
+    <ClCompile Include="..\Codes\Camera.cpp" />
+    <ClCompile Include="..\Codes\CameraMgr.cpp" />
+    <ClCompile Include="..\Codes\Collider.cpp" />
+    <ClCompile Include="..\Codes\Collision_Manager.cpp" />
+    <ClCompile Include="..\Codes\Component.cpp" />
+    <ClCompile Include="..\Codes\Effect.cpp" />
+    <ClCompile Include="..\Codes\Frustum.cpp" />
+    <ClCompile Include="..\Codes\GameObject.cpp" />
+    <ClCompile Include="..\Codes\Layer.cpp" />
+    <ClCompile Include="..\Codes\Light.cpp" />
+    <ClCompile Include="..\Codes\Light_Manager.cpp" />
+    <ClCompile Include="..\Codes\Management.cpp" />
+    <ClCompile Include="..\Codes\MediaObj.cpp" />
+    <ClCompile Include="..\Codes\Prototype_Manager.cpp" />
+    <ClCompile Include="..\Codes\Renderer.cpp" />
+    <ClCompile Include="..\Codes\Rigidbody.cpp" />
+    <ClCompile Include="..\Codes\Scene.cpp" />
+    <ClCompile Include="..\Codes\Shader.cpp" />
+    <ClCompile Include="..\Codes\SphereCollider.cpp" />
+    <ClCompile Include="..\Codes\Target.cpp" />
+    <ClCompile Include="..\Codes\Target_Manager.cpp" />
+    <ClCompile Include="..\Codes\TextureRenderer.cpp" />
+    <ClCompile Include="..\Codes\Transform.cpp" />
+    <ClCompile Include="..\Codes\UICalculater.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Export\Export_Utility.h" />
+    <ClInclude Include="..\Codes\AI.h" />
+    <ClInclude Include="..\Codes\AI_State.h" />
+    <ClInclude Include="..\Codes\AnimationState.h" />
+    <ClInclude Include="..\Codes\Animator.h" />
+    <ClInclude Include="..\Codes\BoxCollider.h" />
+    <ClInclude Include="..\Codes\Calculator.h" />
+    <ClInclude Include="..\Codes\Camera.h" />
+    <ClInclude Include="..\Codes\CameraMgr.h" />
+    <ClInclude Include="..\Codes\Collider.h" />
+    <ClInclude Include="..\Codes\Collision_Manager.h" />
+    <ClInclude Include="..\Codes\Component.h" />
+    <ClInclude Include="..\Codes\Effect.h" />
+    <ClInclude Include="..\Codes\Frustum.h" />
+    <ClInclude Include="..\Codes\GameObject.h" />
+    <ClInclude Include="..\Codes\Layer.h" />
+    <ClInclude Include="..\Codes\Light.h" />
+    <ClInclude Include="..\Codes\Light_Manager.h" />
+    <ClInclude Include="..\Codes\Management.h" />
+    <ClInclude Include="..\Codes\MediaObj.h" />
+    <ClInclude Include="..\Codes\Prototype_Manager.h" />
+    <ClInclude Include="..\Codes\Shader_DOF.hpp" />
+    <ClInclude Include="..\Codes\Shader_Final.hpp" />
+    <ClInclude Include="..\Codes\Shader_HDR.hpp" />
+    <ClInclude Include="..\Codes\Shader_Outline.hpp" />
+    <ClInclude Include="..\Codes\Shader_ParticleEffect.hpp" />
+    <ClInclude Include="..\Codes\Shader_RadialBlur.hpp" />
+    <ClInclude Include="..\Codes\Shader_Reflect.hpp" />
+    <ClInclude Include="..\Codes\Renderer.h" />
+    <ClInclude Include="..\Codes\Rigidbody.h" />
+    <ClInclude Include="..\Codes\Scene.h" />
+    <ClInclude Include="..\Codes\Shader.h" />
+    <ClInclude Include="..\Codes\Shader_Base.hpp" />
+    <ClInclude Include="..\Codes\Shader_Blend.hpp" />
+    <ClInclude Include="..\Codes\Shader_DynamicMesh.hpp" />
+    <ClInclude Include="..\Codes\Shader_Effect.hpp" />
+    <ClInclude Include="..\Codes\Shader_MiniMap.hpp" />
+    <ClInclude Include="..\Codes\Shader_Object.hpp" />
+    <ClInclude Include="..\Codes\Shader_Particle.hpp" />
+    <ClInclude Include="..\Codes\Shader_Player.hpp" />
+    <ClInclude Include="..\Codes\Shader_Shade.hpp" />
+    <ClInclude Include="..\Codes\Shader_Shadow.hpp" />
+    <ClInclude Include="..\Codes\Shader_SSAO.hpp" />
+    <ClInclude Include="..\Codes\Shader_StaticMesh.hpp" />
+    <ClInclude Include="..\Codes\Shader_Trail.hpp" />
+    <ClInclude Include="..\Codes\Shader_UI.hpp" />
+    <ClInclude Include="..\Codes\Shader_WorldUI.hpp" />
+    <ClInclude Include="..\Codes\SphereCollider.h" />
+    <ClInclude Include="..\Codes\Target.h" />
+    <ClInclude Include="..\Codes\Target_Manager.h" />
+    <ClInclude Include="..\Codes\TextureRenderer.h" />
+    <ClInclude Include="..\Codes\Transform.h" />
+    <ClInclude Include="..\Codes\UICalculater.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Export\Export_Utility.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

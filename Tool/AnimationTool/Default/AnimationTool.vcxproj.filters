@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{2fb5f5c9-8997-4b94-ac72-6aeb3e2cbdac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainFrm">
+      <UniqueIdentifier>{2f4f2dca-25bf-41fc-9608-c64a05a5140f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View">
+      <UniqueIdentifier>{f6572374-c897-46d1-b002-b0df82d8522a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\00.MainView">
+      <UniqueIdentifier>{1aadc3b7-1084-4b61-b837-626de2d1284e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\01.FormView">
+      <UniqueIdentifier>{80fa7318-c76b-4b03-b388-ab07ff5eda7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\01.FormView\00.AniTool">
+      <UniqueIdentifier>{fe102fc2-d7d1-4a1d-aaaa-9516034dacda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\01.FormView\01.ColTool">
+      <UniqueIdentifier>{43699970-5961-42f4-a306-16cb63248d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\01.FormView\02.EffectTool">
+      <UniqueIdentifier>{2eee7127-2bcd-4cf4-b2a6-69f55a498644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MainApp">
+      <UniqueIdentifier>{d9d4b583-7776-487d-82d1-65bf87e94585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene">
+      <UniqueIdentifier>{6d07f795-cb33-43bd-a765-ead45b3464d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\00.ToolScene">
+      <UniqueIdentifier>{26447373-a550-4bb7-badc-935d79a524a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject">
+      <UniqueIdentifier>{2a942b49-e331-4f50-9441-df7fd4a1fb90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\00.Grid">
+      <UniqueIdentifier>{ba29294d-97b1-45f4-9d2e-dd0075aa98d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\01.DynamicObject">
+      <UniqueIdentifier>{eb15b4d5-08c2-450e-8930-80cc3025edf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\02.StaticObject">
+      <UniqueIdentifier>{1261e6e5-15d9-4928-b449-3fff5e27fc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\03.Effect">
+      <UniqueIdentifier>{8ea47959-b885-43cb-b88f-e17c6a79ad01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\03.Effect\00.Particle">
+      <UniqueIdentifier>{78b4803c-e41a-4593-beed-77abd4420e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\03.Effect\01.Sprite">
+      <UniqueIdentifier>{8af0ec7a-ff9a-4506-9de0-c6a34f9b20f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\04.PickingRect">
+      <UniqueIdentifier>{986a945a-1602-470b-9e96-6ed9e3daf78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Camera">
+      <UniqueIdentifier>{0361a5d4-c452-495c-81e6-ef7ef2443c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Document">
+      <UniqueIdentifier>{8e1823cf-6884-46b8-a368-88d957075212}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationTool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationToolView.cpp">
+      <Filter>02.View\00.MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>02.View\01.FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="ColTool.cpp">
+      <Filter>02.View\01.FormView\01.ColTool</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectTool.cpp">
+      <Filter>02.View\01.FormView\02.EffectTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\AnimationApp.cpp">
+      <Filter>03.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_AniTool.cpp">
+      <Filter>04.Scene\00.ToolScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Grid.cpp">
+      <Filter>05.GameObject\00.Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DynamicObject.cpp">
+      <Filter>05.GameObject\01.DynamicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\StaticObject.cpp">
+      <Filter>05.GameObject\02.StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sprite.cpp">
+      <Filter>05.GameObject\03.Effect\01.Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PickingRect.cpp">
+      <Filter>05.GameObject\04.PickingRect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_AniTool.cpp">
+      <Filter>98.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationToolDoc.cpp">
+      <Filter>01.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="AniTool.cpp">
+      <Filter>02.View\01.FormView\00.AniTool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationTool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationToolView.h">
+      <Filter>02.View\00.MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>02.View\01.FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="ColTool.h">
+      <Filter>02.View\01.FormView\01.ColTool</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectTool.h">
+      <Filter>02.View\01.FormView\02.EffectTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\AnimationApp.h">
+      <Filter>03.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Scene_AniTool.h">
+      <Filter>04.Scene\00.ToolScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Grid.h">
+      <Filter>05.GameObject\00.Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\DynamicObject.h">
+      <Filter>05.GameObject\01.DynamicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\StaticObject.h">
+      <Filter>05.GameObject\02.StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Sprite.h">
+      <Filter>05.GameObject\03.Effect\01.Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\PickingRect.h">
+      <Filter>05.GameObject\04.PickingRect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Camera_AniTool.h">
+      <Filter>98.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationToolDoc.h">
+      <Filter>01.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="AniTool.h">
+      <Filter>02.View\01.FormView\00.AniTool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AnimationTool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\AnimationToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AnimationTool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AnimationTool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

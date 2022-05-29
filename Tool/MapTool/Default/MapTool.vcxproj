@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1084B3DF-B2D6-4D8D-8C29-ECD39FBA570A}</ProjectGuid>
+    <RootNamespace>MapTool</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../Bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>../Bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../Codes/;../../../SuperClass/;../../../Reference/Headers/;../../../ThirdParty/Boost/;../../../ThirdParty/DShow/;../../../ThirdParty/FMOD/;../../../Client/Headers/;../Headers/;../Default/;../../../ThirdParty/Vld;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__TOOL__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dxguid.lib;fmodex_vc.lib;System.lib;Utility.lib;Resources.lib;vldmtdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../../ThirdParty/FMOD/;../../../Reference/Librarys/;../../../ThirdParty/DShow/;../../../ThirdParty/Vld;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalOptions>/safeseh:no %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../Codes/;../../../SuperClass/;../../../Reference/Headers/;../../../ThirdParty/Boost/;../../../ThirdParty/FMOD/;../../../Client/Headers/;../Headers/;../Default/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__TOOL__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dxguid.lib;fmodex_vc.lib;System.lib;Utility.lib;Resources.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../../ThirdParty/FMOD/;../../../Reference/Librarys/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalOptions>/safeseh:no %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\AI_Discovery.cpp" />
+    <ClCompile Include="..\Codes\AI_Roaming.cpp" />
+    <ClCompile Include="..\Codes\AI_Trace.cpp" />
+    <ClCompile Include="..\Codes\Babegazi_Warrior_Ani.cpp" />
+    <ClCompile Include="..\Codes\Camera_MapTool.cpp" />
+    <ClCompile Include="..\Codes\Cube.cpp" />
+    <ClCompile Include="..\Codes\Environment.cpp" />
+    <ClCompile Include="..\Codes\MainApp.cpp" />
+    <ClCompile Include="..\Codes\MapToolTab.cpp" />
+    <ClCompile Include="..\Codes\Map_Fire.cpp" />
+    <ClCompile Include="..\Codes\Map_Ice.cpp" />
+    <ClCompile Include="..\Codes\Map_Store.cpp" />
+    <ClCompile Include="..\Codes\Monster.cpp" />
+    <ClCompile Include="..\Codes\Mouse.cpp" />
+    <ClCompile Include="..\Codes\MouseCol.cpp" />
+    <ClCompile Include="..\Codes\NaviTab.cpp" />
+    <ClCompile Include="..\Codes\NPC.cpp" />
+    <ClCompile Include="..\Codes\Particle.cpp" />
+    <ClCompile Include="..\Codes\PickingRect.cpp" />
+    <ClCompile Include="..\Codes\Player.cpp" />
+    <ClCompile Include="..\Codes\Player_Ani.cpp" />
+    <ClCompile Include="..\Codes\Scene_MapTool.cpp" />
+    <ClCompile Include="..\Codes\Sprite.cpp" />
+    <ClCompile Include="..\Codes\Trap.cpp" />
+    <ClCompile Include="ButtonMenu.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MapTool.cpp" />
+    <ClCompile Include="MapToolDoc.cpp" />
+    <ClCompile Include="MapToolView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Codes\AI_Discovery.h" />
+    <ClInclude Include="..\Codes\AI_Roaming.h" />
+    <ClInclude Include="..\Codes\AI_Trace.h" />
+    <ClInclude Include="..\Codes\Babegazi_Warrior_Ani.h" />
+    <ClInclude Include="..\Codes\Camera_MapTool.h" />
+    <ClInclude Include="..\Codes\Cube.h" />
+    <ClInclude Include="..\Codes\Environment.h" />
+    <ClInclude Include="..\Codes\MainApp.h" />
+    <ClInclude Include="..\Codes\MapToolTab.h" />
+    <ClInclude Include="..\Codes\Map_Fire.h" />
+    <ClInclude Include="..\Codes\Map_Ice.h" />
+    <ClInclude Include="..\Codes\Map_Store.h" />
+    <ClInclude Include="..\Codes\Monster.h" />
+    <ClInclude Include="..\Codes\Mouse.h" />
+    <ClInclude Include="..\Codes\MouseCol.h" />
+    <ClInclude Include="..\Codes\NaviTab.h" />
+    <ClInclude Include="..\Codes\NPC.h" />
+    <ClInclude Include="..\Codes\Particle.h" />
+    <ClInclude Include="..\Codes\PickingRect.h" />
+    <ClInclude Include="..\Codes\Player.h" />
+    <ClInclude Include="..\Codes\Player_Ani.h" />
+    <ClInclude Include="..\Codes\Scene_MapTool.h" />
+    <ClInclude Include="..\Codes\Sprite.h" />
+    <ClInclude Include="..\Codes\Trap.h" />
+    <ClInclude Include="ButtonMenu.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MapTool.h" />
+    <ClInclude Include="MapToolDoc.h" />
+    <ClInclude Include="MapToolView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MapTool.ico" />
+    <Image Include="res\MapToolDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapTool.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MapTool.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="MapTool.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
